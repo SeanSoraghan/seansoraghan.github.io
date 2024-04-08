@@ -9,10 +9,8 @@ interface HeaderNavBarProps
 
 const HeaderNavBar = (props: HeaderNavBarProps) => (
     <SC.NavBarWrapper>
-        <SC.NavBarMainPage>
-            <NavItem currentItemName={props.currentItemName} itemName="softsound" />
-        </SC.NavBarMainPage>
         <SC.NavBarSubPagesWrapper>
+            <NavItem currentItemName={props.currentItemName} itemName="home" />
             <NavItem currentItemName={props.currentItemName} itemName="about" />
             <NavItem currentItemName={props.currentItemName} itemName="projects" />
         </SC.NavBarSubPagesWrapper>

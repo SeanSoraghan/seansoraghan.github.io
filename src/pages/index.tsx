@@ -47,7 +47,7 @@ const IndexPage: React.FC<PageProps> = () =>
     //const ReactAudioContext = React.createContext(audioContext);
     return (
         <main>
-            <HeaderNavBar currentItemName="softsound" />
+            <HeaderNavBar currentItemName="home" />
             <SC.OuterWrapper>
                 <SC.ContentWrapper>
                     <SC.MediaWrapperHome>

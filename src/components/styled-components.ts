@@ -27,12 +27,27 @@ export const ContentWrapper = styled.div`
     }
 `
 
+export const AboutContentWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: calc(100vh - (${Layout.OUTER_PADDING_DOUBLE} + ${Layout.NAV_BAR_PADDING_DOUBLE} + ${Layout.NAV_BAR_TEXT_HEIGHT_PX}));
+    gap: ${Layout.CONTENT_GAP};
+    background-color: black;
+    @media (min-width: ${Layout.DESKTOP_BREAKPOINT}){
+        min-height: calc(100vh - (${Layout.OUTER_PADDING_DOUBLE} + ${Layout.NAV_BAR_PADDING_DOUBLE} + ${Layout.DESKTOP_NAV_BAR_TEXT_HEIGHT_PX}));
+        max-width: ${Layout.DESKTOP_CONTENT_MAX_WIDTH};
+    }
+`
+
 export const NavBarMainPage = styled.h1`
     display: flex;
     text-align: left;
     color: white;
     margin: 0;
-    font-family: "Josefin Sans";
+    font-family: "Heebo";
     font-weight: 100;
     font-size: ${Layout.HEADER_FONT_SIZE};
     @media (min-width: ${Layout.DESKTOP_BREAKPOINT}){
@@ -48,11 +63,10 @@ export const NavBarSubPagesWrapper = styled.h2`
     color: white;
     margin: 0;
     width: 100%;
-    font-family: "Josefin Sans";
+    font-family: "Heebo";
     font-weight: 100;
     font-size: ${Layout.SUBPAGE_LINK_FONT_SIZE};
     @media (min-width: ${Layout.DESKTOP_BREAKPOINT}){
-        font-size: ${Layout.DESKTOP_SUBPAGE_LINK_FONT_SIZE};
         justify-content: flex-end;
     }
 `
@@ -62,7 +76,7 @@ export const NavBarWrapper = styled.div`
     gap: ${Layout.NAV_LINK_GAP_SIZE};
     align-items: bottom;
     justify-content: flex-start;
-    background-color: white;
+    background-color: black;
     padding: ${Layout.NAV_BAR_PADDING};
 `
 
@@ -207,24 +221,24 @@ export const Paragraph = styled.h3`
     white-space: pre-line;
 `
 export const StyledLink = styled(Link)`
-  color: #014D4E;
+  color: white;
   text-decoration: none;
   font-weight: 400;
 `
 
 export const StyledLinkHome = styled(Link)`
-  color: #014D4E;
+  color: white;
   text-decoration: none;
   font-weight: 400;
 `
 
 export const InactiveLinkCurrentPage = styled.div`
-  color: black;
+  color: white;
   text-decoration: overline;
 `
 
 export const InactiveLinkCurrentPageHome = styled.div`
-  color: black;
+  color: white;
   text-decoration: overline;
 `
 

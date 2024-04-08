@@ -13,6 +13,7 @@ void main()
 	vec3 col = vec3 (0.0);
 	vec3 eye = vec3 (0.0, 0.0, -100.0);
 	vec3 ray = normalize (eye - vert);
+    // Should try to put the light 'in front of' the sphere
 	float diffuse = dot (ray, norm) * 0.5;
 
 	float highlight = pow (1.0 - diffuse, 2.0);
