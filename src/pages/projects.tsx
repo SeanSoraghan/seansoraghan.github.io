@@ -69,4 +69,4 @@ const ProjectsPage: React.FC<PageProps> = () =>
 
 export default ProjectsPage
 
-export const Head: HeadFC = () => <title>Soft Sound | Projects</title>
+export const Head: HeadFC = () => <title>Sean Soraghan | Projects</title>

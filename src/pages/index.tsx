@@ -76,4 +76,4 @@ const IndexPage: React.FC<PageProps> = () =>
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Soft Sound | Home</title>
+export const Head: HeadFC = () => <title>Sean Soraghan | Home</title>
