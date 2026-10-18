@@ -51,9 +51,9 @@ const IndexPage: React.FC<PageProps> = () =>
             <SC.OuterWrapper>
                 <SC.ContentWrapper>
                     <SC.MediaWrapperHome>
-                        <SC.MediaTextCentredLarge>Sound Design.</SC.MediaTextCentredLarge>
+                        <SC.MediaTextCentredLarge>Audio Programming.</SC.MediaTextCentredLarge>
                         <SC.Media>
-                            <VideoComponent title="Sound Design" embedURL="https://player.vimeo.com/video/802257789?h=d8e5179c5b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" />
+                            <VideoComponent title="Audio Programming" embedURL="https://player.vimeo.com/video/802257945?h=3e9481b528&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" />
                         </SC.Media>
                     </SC.MediaWrapperHome>
                     <SC.MediaWrapperHome reverseImageTextOrder>
@@ -63,9 +63,9 @@ const IndexPage: React.FC<PageProps> = () =>
                         </SC.Media>
                     </SC.MediaWrapperHome>
                     <SC.MediaWrapperHome>
-                        <SC.MediaTextCentredLarge>Audio Programming.</SC.MediaTextCentredLarge>
+                        <SC.MediaTextCentredLarge>Sound Design.</SC.MediaTextCentredLarge>
                         <SC.Media>
-                            <VideoComponent title="Audio Programming" embedURL="https://player.vimeo.com/video/802257945?h=3e9481b528&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" />
+                            <VideoComponent title="Sound Design" embedURL="https://player.vimeo.com/video/802257789?h=d8e5179c5b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" />
                         </SC.Media>
                     </SC.MediaWrapperHome>
                 </SC.ContentWrapper>

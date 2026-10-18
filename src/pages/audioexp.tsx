@@ -20,7 +20,7 @@ const AudioExpPage: React.FC<PageProps> = () =>
     };
     return (
         <main>
-            <HeaderNavBar currentItemName="softsound" />
+            <HeaderNavBar currentItemName="seans" />
             <button onClick={onAddBtnClick}> Init Audio </button>
             <SC.OuterWrapper><div style={{ width: 1000, height: 1000 }}>{audioDemo}</div></SC.OuterWrapper>
             {/* <div style={{ width: 1000, height: 1000 }}>{audioDemo}</div>   figure out how to align the canvas*/}
@@ -30,4 +30,4 @@ const AudioExpPage: React.FC<PageProps> = () =>
 
 export default AudioExpPage
 
-export const Head: HeadFC = () => <title>Soft Sound | Audio</title>
+export const Head: HeadFC = () => <title>Sean S | Audio</title>
