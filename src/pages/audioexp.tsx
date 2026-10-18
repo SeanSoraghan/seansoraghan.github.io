@@ -22,7 +22,8 @@ const AudioExpPage: React.FC<PageProps> = () =>
         <main>
             <HeaderNavBar currentItemName="softsound" />
             <button onClick={onAddBtnClick}> Init Audio </button>
-            <div style={{ width: 1000, height: 1000 }}>{audioDemo}</div>
+            <SC.OuterWrapper><div style={{ width: 1000, height: 1000 }}>{audioDemo}</div></SC.OuterWrapper>
+            {/* <div style={{ width: 1000, height: 1000 }}>{audioDemo}</div>   figure out how to align the canvas*/}
         </main>
     )
 }
