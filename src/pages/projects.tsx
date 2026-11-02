@@ -21,6 +21,15 @@ const ProjectsPage: React.FC<PageProps> = () =>
             <SC.OuterWrapper>
                 <SC.ContentWrapper>
                     <SC.MediaWrapper>
+                        <SC.MediaHeader>Lucid Games</SC.MediaHeader>
+                        <SC.MediaTextWrapper reverseImageTextOrder>
+                            <SC.Media>
+                                <VideoComponent title="Lucid Games Systems" embedURL="https://player.vimeo.com/video/1237877936?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" />
+                            </SC.Media>
+                            <SC.MediaText>{Projects.lucidText}</SC.MediaText>
+                        </SC.MediaTextWrapper>
+                    </SC.MediaWrapper>
+                    <SC.MediaWrapper>
                         <SC.MediaHeader>Baldur's Gate III - Larian Studios</SC.MediaHeader>
                         <SC.MediaTextWrapper>
                             <SC.Media><StaticImage alt="" src={'../images/bg3.jpg'} aspectRatio={1920 / 1080} /></SC.Media>

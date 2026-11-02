@@ -1,4 +1,10 @@
 export const Projects = {
+    lucidText: "As Senior Audio Programmer at Lucid Games, I took ownership of various large scale audio systems, written both in Unreal Engine 5 and in a proprietary engine while working with a co-dev partner. " +
+        "I built a custom UE5 Wwise plugin with revised object management, in order to improve on the runtime cost of the Audiokinetic Wwise plugin. " +
+        "The plugin included a runtime raytrace-based obstruction system with dynamic pathing, as well as a reverb system supporting both pre-baked and runtime reverb estimation. " +
+        "Unfortunately everything I worked on at Lucid is still under NDA. I wanted a way to demonstrate what I'd been working on, so I decided to just talk through the systems and use my voice to demonstrate where possible (e.g. for obstruction and reverb)." +
+        "\n\nI worked very closely with the Audio Director at Lucid to specify and prioritize technical audio systems that served the entire audio team." +
+        "I really enjoy writing systems and tools that can help elevate an audio team and bring a game's audio to life.",
     bgText: "I worked as a technical sound designer for Baldur's Gate III, alongside the fantastic audio team at Larian Studios. " +
         "\n\nAs a technical sound designer on the project, I wrote a lot of Python scripts for Wwise to help smooth out the workflow of the asset generation pipeline. " +
         "I also helped out with technical implementation both in Wwise and in Larian's in-house game engine, and worked on sound design and sound systemics.",

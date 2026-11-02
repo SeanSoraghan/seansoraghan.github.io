@@ -13,6 +13,7 @@ const HeaderNavBar = (props: HeaderNavBarProps) => (
             <NavItem currentItemName={props.currentItemName} itemName="home" />
             <NavItem currentItemName={props.currentItemName} itemName="about" />
             <NavItem currentItemName={props.currentItemName} itemName="projects" />
+            <NavItem currentItemName={props.currentItemName} itemName="music" />
         </SC.NavBarSubPagesWrapper>
     </SC.NavBarWrapper>
 );
